@@ -11,6 +11,7 @@ public class Client {
         int rep1=0;
         Socket socket = null;
         int inputChoice=-1;
+
         try {
             socket = new Socket("localhost",1998);
 

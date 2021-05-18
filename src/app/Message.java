@@ -5,20 +5,20 @@ import java.io.Serializable;
 public class Message implements Serializable {
     String name;
     int floor;
-    int size;
+    double size;
     String Description;
 
     public Message(String name) {
         this.name = name;
     }
 
-    public Message(String name, int floor, int size) {
+    public Message(String name, int floor, double size) {
         this.name = name;
         this.floor = floor;
         this.size = size;
     }
 
-    public Message(String name, int floor, int size, String description) {
+    public Message(String name, int floor, double size, String description) {
         this.name = name;
         this.floor = floor;
         this.size = size;
@@ -41,7 +41,7 @@ public class Message implements Serializable {
         this.floor = floor;
     }
 
-    public int getSize() {
+    public double getSize() {
         return size;
     }
 

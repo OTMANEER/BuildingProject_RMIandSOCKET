@@ -51,14 +51,4 @@ public class Building implements Serializable {
         }
         return gesamt;
     }
-
-/*    public void addRoomOut(String name, int boden, double groeße) throws RemoteException{
-        this.addRoom(name,boden,groeße);
-    }
-    public String allRoomsNameOut() throws RemoteException{
-        return this.allRoomsName();
-    }
-    public String BuildingName() throws RemoteException{
-        return this.getName();
-    }*/
 }

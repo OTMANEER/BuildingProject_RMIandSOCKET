@@ -1,6 +1,8 @@
 package app;//import java.util.ArrayList;
 
-public class Room {
+import java.io.Serializable;
+
+public class Room implements Serializable {
 
     private final String name;
     private final int floor;
